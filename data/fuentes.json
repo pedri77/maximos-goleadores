@@ -1,0 +1,54 @@
+{
+ "meta": {
+  "generado": "2026-10-02",
+  "tema": "Fuentes y criterios de los máximos goleadores históricos",
+  "aviso": "Cada cifra lleva su URL. No hay cifras de segunda mano sin origen. No se incluye ninguna fotografía de jugador: el episodio usa ilustración genérica."
+ },
+ "fuentes": [
+  {
+   "id": "rsssf",
+   "nombre": "RSSSF · «Prolific Scorers Data» (Best Goalscorers All-Time, Official Matches)",
+   "url": "https://www.rsssf.org/players/prolific.html",
+   "consultado": "2026-10-02",
+   "actualizado": "19 de julio de 2026 (lo indica la propia página)",
+   "criterio_que_cuenta": [
+    "«all leagues (incl. regional-, reserve-, amateur-)»: TODAS las ligas, incluidas regionales, de reservas y amateur",
+    "«national and international cups»",
+    "«all selections: A, B, Ol, U, league, armee, senior, regional, city, etc. — against the same selections»",
+    "«other official tournaments» y torneos tradicionales (Intertoto desde 1961, Alpencup, torneos de pretemporada húngaros y alemanes, torneo de invierno de Praga, torneos de guerra, all-star games)",
+    "«all cancelled games»: también cuenta partidos anulados"
+   ],
+   "criterio_excluye": [
+    "No publica criterio de exclusión en la misma página: su lista «official» es más amplia que la de FIFA o la de la Wikipedia de «500 goles»."
+   ],
+   "nota": "Página hermana del mismo autor: ficheros por jugador (pbicandata.html, pdeakdata.html…) con el detalle partido a partido."
+  },
+  {
+   "id": "iffhs",
+   "nombre": "IFFHS · «All Time Goal Scorers Ranking» (recogida en el artículo de Wikipedia «List of footballers with 500 or more goals»)",
+   "url": "https://iffhs.com/en/news/all-time-goal-scorers-ranking-3879",
+   "consultado": "2026-10-02",
+   "fecha_fuente": "21 de septiembre de 2024",
+   "criterio_que_cuenta": [
+    "«in top-level association football competitions … in both club and international football» (liga de máximo nivel, copas nacionales e internacionales y selección absoluta)"
+   ],
+   "criterio_excluye": [
+    "Excluyó los goles de guerra de Bican en su momento (Bican se marchó de una gala de la IFFHS por ese motivo); la organización luego lo reconoció con otra cifra."
+   ],
+   "nota": "Wikipedia da la cifra por jugador y la cita con URL; es la vía de acceso estable a la lista de la IFFHS."
+  },
+  {
+   "id": "wiki_oficial",
+   "nombre": "Wikipedia · tabla de goles «reconocidos oficialmente» del mismo artículo",
+   "url": "https://en.wikipedia.org/wiki/List_of_footballers_with_500_or_more_goals",
+   "consultado": "2026-10-02",
+   "criterio_que_cuenta": [
+    "Solo clubes de máximo nivel y selección absoluta, con desglose por club y selección."
+   ],
+   "criterio_excluye": [
+    "Amistosos no oficiales, equipos regionales o de ciudad, reservas y torneos amistosos."
+   ],
+   "nota": "Es la tabla que da cifras mucho menores: Pelé 762 y Bican 722, frente a 778 y 950+ de RSSSF."
+  }
+ ]
+}
