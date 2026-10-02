@@ -1,0 +1,333 @@
+{
+ "meta": {
+  "generado": "2026-10-02",
+  "aviso": "Cada fuente aplica la regla que declara en su propia página. Aquí solo se traduce a cuatro casillas lo que ellas escriben, con su cita en fuentes.json."
+ },
+ "criterios": [
+  {
+   "id": "amistosos",
+   "etiqueta": "Partidos amistosos y de exhibición",
+   "nota": "En la época de Pelé las giras del Santos eran acontecimientos masivos: 448 de sus goles con el club fueron en amistosos, según el propio Santos."
+  },
+  {
+   "id": "regionales",
+   "etiqueta": "Selecciones regionales, de ciudad o de liga",
+   "nota": "RSSSF las cuenta expresamente: «all selections: A, B, Ol, U, league, armee, senior, regional, city, etc.»."
+  },
+  {
+   "id": "reservas",
+   "etiqueta": "Equipos filiales y ligas de reservas",
+   "nota": "RSSSF incluye «all leagues (incl. regional-, reserve-, amateur-)». Es lo que dispara la cifra de Bican."
+  },
+  {
+   "id": "anulados",
+   "etiqueta": "Partidos anulados o cancelados",
+   "nota": "RSSSF también los cuenta («all cancelled games»)."
+  }
+ ],
+ "fuentes": [
+  {
+   "id": "santos",
+   "nombre": "Santos FC (el club)",
+   "url": "https://www.santosfc.com.br/rei-pele-1-091-gols-pelo-santos-fc/",
+   "regla": {
+    "amistosos": true,
+    "regionales": false,
+    "reservas": false,
+    "anulados": false
+   },
+   "alcance": "Solo los goles de Pelé con el Santos: 643 oficiales y 448 en amistosos."
+  },
+  {
+   "id": "wiki_oficial",
+   "nombre": "Tabla de goles «reconocidos oficialmente»",
+   "url": "https://en.wikipedia.org/wiki/List_of_footballers_with_500_or_more_goals",
+   "regla": {
+    "amistosos": false,
+    "regionales": false,
+    "reservas": false,
+    "anulados": false
+   },
+   "alcance": "Clubes de máximo nivel y selección absoluta."
+  },
+  {
+   "id": "iffhs",
+   "nombre": "IFFHS",
+   "url": "https://iffhs.com/en/news/all-time-goal-scorers-ranking-3879",
+   "regla": {
+    "amistosos": false,
+    "regionales": false,
+    "reservas": false,
+    "anulados": false
+   },
+   "alcance": "«Top-level competitions» de club y selección."
+  },
+  {
+   "id": "rsssf",
+   "nombre": "RSSSF",
+   "url": "https://www.rsssf.org/players/prolific.html",
+   "regla": {
+    "amistosos": false,
+    "regionales": true,
+    "reservas": true,
+    "anulados": true
+   },
+   "alcance": "Ligas de cualquier categoría, todas las selecciones, torneos tradicionales y partidos anulados."
+  },
+  {
+   "id": "fifa",
+   "nombre": "FIFA (cifra que recoge ESPN)",
+   "url": "https://www.espn.com/soccer/story/_/id/37635141/pele-incredible-numbers-stats-1281-hundreds-goals-3-world-cups",
+   "regla": {
+    "amistosos": true,
+    "regionales": false,
+    "reservas": false,
+    "anulados": false
+   },
+   "alcance": "1.281 goles en 1.363 partidos, incluyendo no oficiales."
+  },
+  {
+   "id": "guinness",
+   "nombre": "Guinness World Records",
+   "url": "https://www.guinnessworldrecords.com/world-records/most-career-goals",
+   "regla": {
+    "amistosos": true,
+    "regionales": false,
+    "reservas": false,
+    "anulados": false
+   },
+   "alcance": "Récord «most career goals», incluyendo amistosos."
+  },
+  {
+   "id": "nyt",
+   "nombre": "The New York Times",
+   "url": "https://www.nytimes.com/2022/12/29/sports/soccer/pele-dead.html",
+   "regla": {
+    "amistosos": true,
+    "regionales": false,
+    "reservas": false,
+    "anulados": false
+   },
+   "alcance": "1.279 goles en 1.363 partidos, «incluye partidos de exhibición»."
+  },
+  {
+   "id": "saopaulo",
+   "nombre": "Documento del estado de São Paulo",
+   "url": "https://www.santos.sp.gov.br/static/files_www/files/portal_files/numeros_do_rei.pdf",
+   "regla": {
+    "amistosos": true,
+    "regionales": false,
+    "reservas": false,
+    "anulados": false
+   },
+   "alcance": "1.282 goles en 1.367 partidos."
+  }
+ ],
+ "wikidata": {
+  "suma_ingenua": {
+   "Pelé": 3656,
+   "Lionel Messi": 1738,
+   "Cristiano Ronaldo": 1012,
+   "Diego Maradona": 471
+  },
+  "explicacion": "Sumar los goles por etapa de Wikidata (P54) sin depurar da estas cifras: las fichas mezclan etapas duplicadas, solapadas y totales de temporada dentro del campo de goles. Es el error que este episodio evita."
+ },
+ "figuras": [
+  {
+   "jugador": "Pelé",
+   "cifra": 747,
+   "fuente": "Documentación del Santos",
+   "regla": {
+    "amistosos": false,
+    "regionales": false,
+    "reservas": false,
+    "anulados": false
+   },
+   "alcance": "solo su club",
+   "nota": "Solo lo oficial con el Santos, la selección y el Cosmos: 643 + 67 + 37.",
+   "url": "https://www.santos.sp.gov.br/static/files_www/files/portal_files/numeros_do_rei.pdf"
+  },
+  {
+   "jugador": "Pelé",
+   "cifra": 757,
+   "fuente": "Prensa, como «oficial»",
+   "regla": {
+    "amistosos": false,
+    "regionales": false,
+    "reservas": false,
+    "anulados": false
+   },
+   "alcance": "carrera",
+   "nota": "La misma cuenta con 77 goles de selección en vez de 67.",
+   "url": "https://www.businessinsider.com/pele-not-footballs-greatest-ever-goalscorer-why-hes-wrong-2021-1"
+  },
+  {
+   "jugador": "Pelé",
+   "cifra": 762,
+   "fuente": "Tabla de goles «reconocidos oficialmente»",
+   "regla": {
+    "amistosos": false,
+    "regionales": false,
+    "reservas": false,
+    "anulados": false
+   },
+   "alcance": "carrera",
+   "nota": "Desglose 604 de club + 49 + 26 + 83 de selección.",
+   "url": "https://en.wikipedia.org/wiki/List_of_footballers_with_500_or_more_goals"
+  },
+  {
+   "jugador": "Pelé",
+   "cifra": 778,
+   "fuente": "RSSSF",
+   "regla": {
+    "amistosos": false,
+    "regionales": true,
+    "reservas": true,
+    "anulados": true
+   },
+   "alcance": "carrera",
+   "nota": "Además de lo oficial, selecciones B/Olímpica/juvenil, regionales y de ciudad, pretemporada y partidos anulados.",
+   "url": "https://www.rsssf.org/players/prolific.html"
+  },
+  {
+   "jugador": "Pelé",
+   "cifra": 1091,
+   "fuente": "Santos FC, el club",
+   "regla": {
+    "amistosos": true,
+    "regionales": false,
+    "reservas": false,
+    "anulados": false
+   },
+   "alcance": "solo su club",
+   "nota": "Todos sus goles con el Santos: 643 oficiales y 448 en amistosos. No es una cifra de carrera.",
+   "url": "https://www.santosfc.com.br/rei-pele-1-091-gols-pelo-santos-fc/"
+  },
+  {
+   "jugador": "Pelé",
+   "cifra": 1279,
+   "fuente": "The New York Times",
+   "regla": {
+    "amistosos": true,
+    "regionales": false,
+    "reservas": false,
+    "anulados": false
+   },
+   "alcance": "carrera",
+   "nota": "1.279 en 1.363 partidos; el diario precisa que «incluye partidos de exhibición».",
+   "url": "https://www.nytimes.com/2022/12/29/sports/soccer/pele-dead.html"
+  },
+  {
+   "jugador": "Pelé",
+   "cifra": 1281,
+   "fuente": "FIFA (recogida por ESPN)",
+   "regla": {
+    "amistosos": true,
+    "regionales": false,
+    "reservas": false,
+    "anulados": false
+   },
+   "alcance": "carrera",
+   "nota": "1.281 en 1.363 partidos, incluyendo encuentros no oficiales.",
+   "url": "https://www.espn.com/soccer/story/_/id/37635141/pele-incredible-numbers-stats-1281-hundreds-goals-3-world-cups"
+  },
+  {
+   "jugador": "Pelé",
+   "cifra": 1282,
+   "fuente": "Documento del estado de São Paulo",
+   "regla": {
+    "amistosos": true,
+    "regionales": false,
+    "reservas": false,
+    "anulados": false
+   },
+   "alcance": "carrera",
+   "nota": "1.282 en 1.367 partidos.",
+   "url": "https://www.santos.sp.gov.br/static/files_www/files/portal_files/numeros_do_rei.pdf"
+  },
+  {
+   "jugador": "Pelé",
+   "cifra": 1283,
+   "fuente": "Guinness World Records",
+   "regla": {
+    "amistosos": true,
+    "regionales": false,
+    "reservas": false,
+    "anulados": false
+   },
+   "alcance": "carrera",
+   "nota": "Su récord «most career goals», incluyendo amistosos.",
+   "url": "https://www.guinnessworldrecords.com/world-records/most-career-goals"
+  },
+  {
+   "jugador": "Josef Bican",
+   "cifra": 722,
+   "fuente": "Tabla de goles «reconocidos oficialmente»",
+   "regla": {
+    "amistosos": false,
+    "regionales": false,
+    "reservas": false,
+    "anulados": false
+   },
+   "alcance": "carrera",
+   "nota": "Solo máximo nivel de club y selección.",
+   "url": "https://en.wikipedia.org/wiki/List_of_footballers_with_500_or_more_goals"
+  },
+  {
+   "jugador": "Josef Bican",
+   "cifra": 805,
+   "fuente": "Estimación al superarle Ronaldo",
+   "regla": {
+    "amistosos": false,
+    "regionales": false,
+    "reservas": false,
+    "anulados": false
+   },
+   "alcance": "carrera",
+   "nota": "Cifra que se citó en 2021 como la superada por Cristiano Ronaldo.",
+   "url": "https://www.nytimes.com/athletic/4222158/2021/03/15/ronaldo-congratulated-by-pele-for-breaking-his-goals-record/"
+  },
+  {
+   "jugador": "Josef Bican",
+   "cifra": 821,
+   "fuente": "Federación checa",
+   "regla": {
+    "amistosos": false,
+    "regionales": false,
+    "reservas": false,
+    "anulados": false
+   },
+   "alcance": "carrera",
+   "nota": "Lo que sostiene su federación frente a la cifra de Ronaldo.",
+   "url": "https://www.skysports.com/football/news/11095/12194563/cristiano-ronaldo-czech-fa-claims-juventus-striker-has-not-broken-josef-bicans-goalscoring-record"
+  },
+  {
+   "jugador": "Josef Bican",
+   "cifra": 950,
+   "fuente": "RSSSF",
+   "regla": {
+    "amistosos": false,
+    "regionales": true,
+    "reservas": true,
+    "anulados": true
+   },
+   "alcance": "carrera",
+   "nota": "La lista avisa de que incluye equipos de reserva y partidos internacionales no oficiales.",
+   "url": "https://www.rsssf.org/players/prolific.html"
+  },
+  {
+   "jugador": "Artur Friedenreich",
+   "cifra": 1329,
+   "fuente": "Britannica",
+   "regla": {
+    "amistosos": true,
+    "regionales": false,
+    "reservas": false,
+    "anulados": false
+   },
+   "alcance": "carrera",
+   "nota": "«Reconocida oficialmente» según Britannica; otra reclamación brasileña con criterio propio.",
+   "url": "https://www.britannica.com/biography/Artur-Friedenreich"
+  }
+ ]
+}
